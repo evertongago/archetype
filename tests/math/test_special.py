@@ -52,7 +52,7 @@ class SpecialTest(unittest.TestCase):
         """
 
         s = Special()
-        self.assertEqual(121, s.factorial(5))
+        self.assertEqual(120, s.factorial(5))
 
     def test_fibonacci(self):
         """
